@@ -22,6 +22,9 @@ Once hawkular has started, you can access it via: http://{docker host}:8080/hawk
 - U: jdoe
 - P: password
 
+Once you've logged in, create an organization via John Doe -> Manage Organizations -> Create.
+Copy the tenant id within the hawkular logs, as this is required for the camel-jetty app.
+
 ## Running Camel example
 The Camel example is based on https://github.com/fabric8io/ipaas-quickstarts/tree/master/quickstart/cdi/camel-jetty
 - cd fabric8io-quickstart-camel-jetty

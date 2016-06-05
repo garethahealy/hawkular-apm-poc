@@ -22,7 +22,7 @@
     </scm>
 
     <modules>
-        <module>fabric8io-quickstart-camel-jetty</module>
+        <module>camel-jetty</module>
     </modules>
 
 </project>
