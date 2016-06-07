@@ -365,5 +365,68 @@
         }]
       }]
     }
+  },
+  "businessTransactions": {
+    "testjetty": {
+      "description": "Configuration for Jetty tests",
+      "filter": {
+        "inclusions": [
+          "/camel/hello"
+        ]
+      },
+      "processors": [{
+        "nodeType": "Consumer",
+        "direction": "In",
+        "uriFilter": "/camel/hello",
+        "actions": [{
+          "name": "all",
+          "actionType": "AddContent",
+          "expression": {
+            "type": "Text",
+            "source": "Content",
+            "key": "0"
+          }
+        }]
+      },{
+        "nodeType": "Consumer",
+        "direction": "Out",
+        "uriFilter": "/camel/hello",
+        "actions": [{
+          "name": "all",
+          "actionType": "AddContent",
+          "expression": {
+            "type": "Text",
+            "source": "Content",
+            "key": "0"
+          }
+        }]
+      },{
+        "nodeType": "Producer",
+        "direction": "In",
+        "uriFilter": "/camel/hello",
+        "actions": [{
+          "name": "all",
+          "actionType": "AddContent",
+          "expression": {
+            "type": "Text",
+            "source": "Content",
+            "key": "0"
+          }
+        }]
+      },{
+        "nodeType": "Producer",
+        "direction": "Out",
+        "uriFilter": "/camel/hello",
+        "actions": [{
+          "name": "all",
+          "actionType": "AddContent",
+          "expression": {
+            "type": "Text",
+            "source": "Content",
+            "key": "0"
+          }
+        }]
+      }]
+    }
   }
 }
