@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/garethahealy/hawkular-apm-poc.svg?branch=master)](https://travis-ci.org/garethahealy/hawkular-apm-poc)
 [![License](https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000)]()
 
+# PLEASE READ
+As Hawkular APM has moved in a different direction, this repo should be regarded as dead. See:
+- http://www.hawkular.org/blog/2017/04/19/hawkular-apm-jaeger.html
+
 # hawkular-apm-poc
 PoC around Hawkluar APM monitoring
 - http://www.hawkular.org
